@@ -34,6 +34,10 @@ data<-rbind(test,train)
 cols<-grep('mean\\(|std',names(data))
 data<-data[c(1,4,cols)]
 
+#reshape the data table into the format that each row is a combination of (object,activity,measurement,value)
 newData<-melt(data,id=c('object','activity'))
+#reshape the table into the format that each measurement is an independent column
+#aggregate the values of measurements by average
 newData<-dcast(newData,object+activity~variable,mean)
+#output the data table
 write.table(newData,'./result.txt',row.name=FALSE)
