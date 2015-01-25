@@ -7,12 +7,21 @@
 *	codebook.txt: the code for the result.txt
 
 
+<<<<<<< HEAD
 ##How to run the script:
 1. unzip the data set
 2. create a fold called Samsung. The folder shall be in the same folder of run_analysis.R
 3. move the data files into Samsung. 
 4. run the script in R
 5. a result.txt will be generated
+=======
+How to run the script:
+	1. unzip the data set
+	2. create a fold called Samsung in the main directory
+	3. move the data files into Samsung. 
+	4. run the script in R
+	5. a result.txt will be generated
+>>>>>>> 64b862e81fdd5033e438d7b86f84f11858d2129f
 
 ##The correct structure of working directory including dataset shall be:
 >root(you working directory)\
