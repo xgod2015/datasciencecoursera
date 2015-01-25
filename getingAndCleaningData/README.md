@@ -16,20 +16,38 @@
 
 ##The correct structure of working directory including dataset shall be:
 root(main directory)\
+  
   README.md
+  
   run_analysis.R
+  
   result.txt
+  
   codebook.txt
+  
   Samsung\
+  
+  
     activity_lables.txt
+    
     features_info.txt
+    
     features.txt
+    
     Readme.txt
+    
     test\
+     
       subject_test.txt
+      
       x_test.txt
+      
       y_test.txt
+    
     train\
+      
       subject_train.txt
+      
       x_train.txt
+      
       y_train.txt
