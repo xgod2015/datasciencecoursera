@@ -9,7 +9,7 @@ In the foler contains following files:
 
 How to run the script:
 	1. unzip the data set
-	2. create a fold called Samsung. The folder shall be in the same folder of run_analysis.R
+	2. create a fold called Samsung in the main directory
 	3. move the data files into Samsung. 
 	4. run the script in R
 	5. a result.txt will be generated
